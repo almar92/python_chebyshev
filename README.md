@@ -24,9 +24,12 @@ where
 
 * $\omega = 2\pi f$
 * $H_0$ is the **maximum amplification in the filter's passing band**
-* $\epsilon$ is the **ripple factor**, whose contribute to the max amplitude in the passing band is given by $$
-k_p = 20 \cdot \log_{10}(\sqrt{1 +\epsilon^2}) \;\;[dB]$$
-* $C_n(\omega)$ is the **n-th order Chebyshev polynomial**, where **n** corresponds to the filter order, which are defined as such $$\begin{align}
+* $\epsilon$ is the **ripple factor**, whose contribute to the max amplitude in the passing band is given by 
+$$
+k_p = 20 \cdot \log_{10}(\sqrt{1 +\epsilon^2}) \;\;[dB]
+$$
+* $C_n(\omega)$ is the **n-th order Chebyshev polynomial**, where **n** corresponds to the filter order, which are defined as such 
+$$\begin{align}
 C_n(\omega) &= cos(n \cdot arccos(\omega)) \;\;\; &\omega &\in [0,1]\\
 C_n(\omega) &= cos(n \cdot arccosh(\omega)) \;\;\; &\omega &\geq 1
 \end{align}$$
