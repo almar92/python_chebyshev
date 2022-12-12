@@ -59,9 +59,10 @@ v &= \frac{1}{n}\cdot arcsinh \left( \frac{1}{\epsilon} \right)\\
 ## Example: 7th order low-pass filter with $\epsilon=1$
 
 For a 7th order low-pass filter with $\epsilon=1$ the normalized transfer function becomes
-$$
+
+$$\begin{align}
 |N_{LP}^{(7)}(j\omega)|^2 = \frac{1}{1 + (64\omega^7 - 112 \omega^5 + 56\omega^3 - 7\omega)^2}
-$$
+\end{align}$$
 
 Using the above formulas we get
 
