@@ -25,17 +25,20 @@ where
 * $\omega = 2\pi f$
 * $H_0$ is the **maximum amplification in the filter's passing band**
 * $\epsilon$ is the **ripple factor**, whose contribute to the max amplitude in the passing band is given by 
+
 $$
 k_p = 20 \cdot \log_{10}(\sqrt{1 +\epsilon^2}) \;\;[dB]
 $$
-* $C_n(\omega)$ is the **n-th order Chebyshev polynomial**, where **n** corresponds to the filter order, which are defined as such 
+
+* $C_n(\omega)$ is the **n-th order Chebyshev polynomial** (which can be found tabulated, [here](https://brilliant.org/wiki/chebyshev-polynomials-definition-and-properties/) as an example), where **n** corresponds to the filter order, which are defined as such 
+
 $$\begin{align}
 C_n(\omega) &= cos(n \cdot arccos(\omega)) \;\;\; &\omega &\in [0,1]\\
 C_n(\omega) &= cos(n \cdot arccosh(\omega)) \;\;\; &\omega &\geq 1
-\end{align}$$
-Usually these are never calculated, since they have been tabulated, as shown [here](https://brilliant.org/wiki/chebyshev-polynomials-definition-and-properties/) as an example.
+\end{align}$$  
 
 More than $H_{LP}^{(n)}(j\omega)$ it's usually preferred the **normalized transfer function**, defined as
+
 $$
 |N_{LP}^{(n)}(j\omega)|^2=\frac{|H_{LP}^{(n)}(j\omega)|^2}{H_0^2} = \frac{1}{1 + \epsilon^2\cdot C_n^2(\omega)}
 $$
