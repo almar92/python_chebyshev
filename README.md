@@ -5,7 +5,7 @@
 1. [Introduction](#Introduction)
 2. [Type 1 Chebyshev filters](#Type-1-Chebyshev-filters)
 3. [Pole calculation](#Pole-calculation)    
-4. [Example: 7th order low-pass filter with $\epsilon=1$]
+4. [Example: 7th order low-pass filter with $\epsilon=1$](#example-7th-order-low-pass-filter-with-epsilon1)
 	
 ## Introduction
 
@@ -83,4 +83,4 @@ p_7 & = −0.0281 − j · 0.9827
 \end{align}$$
 
 
-![Image](https://github.com/squar3wave/python_chebyshev/n=7_epsilon=1.0.png)
+![Image](https://github.com/Squar3wave/python_chebyshev/blob/master/n%3D7_epsilon%3D1.0.png)
