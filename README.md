@@ -33,8 +33,8 @@ $$
 * $C_n(\omega)$ is the **n-th order Chebyshev polynomial** (which can be found tabulated, [here](https://brilliant.org/wiki/chebyshev-polynomials-definition-and-properties/) as an example), where **n** corresponds to the filter order, which are defined as such 
 
 $$\begin{align}
-C_n(\omega) &= cos(n \cdot arccos(\omega)) \;\;\; &\omega &\in [0,1]\\
-C_n(\omega) &= cos(n \cdot arccosh(\omega)) \;\;\; &\omega &\geq 1
+C_n(\omega) &= cos(n \cdot arccos(\omega))  &\omega &\in [0,1]\\
+C_n(\omega) &= cos(n \cdot arccosh(\omega)) &\omega &\geq 1
 \end{align}$$  
 
 More than $H_{LP}^{(n)}(j\omega)$ it's usually preferred the **normalized transfer function**, defined as
