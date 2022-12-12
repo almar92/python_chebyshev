@@ -26,9 +26,9 @@ where
 * $H_0$ is the **maximum amplification in the filter's passing band**
 * $\epsilon$ is the **ripple factor**, whose contribute to the max amplitude in the passing band is given by 
 
-$$
-k_p = 20 \cdot \log_{10}(\sqrt{1 +\epsilon^2}) \;\;[dB]
-$$
+$$\begin{align}
+k_p &= 20 \cdot \log_{10}(\sqrt{1 +\epsilon^2}) &[dB]
+\end{align}$$
 
 * $C_n(\omega)$ is the **n-th order Chebyshev polynomial** (which can be found tabulated, [here](https://brilliant.org/wiki/chebyshev-polynomials-definition-and-properties/) as an example), where **n** corresponds to the filter order, which are defined as such 
 
