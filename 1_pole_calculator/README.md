@@ -90,4 +90,4 @@ p_7 & = −0.0281 − j · 0.9827
 \end{align}$$
 
 
-![Image](https://github.com/Squar3wave/python_chebyshev/blob/master/pole_calculator/n%3D7_epsilon%3D1.0.png)
+![Image](https://github.com/Squar3wave/python_chebyshev/blob/master/1_pole_calculator/n%3D7_epsilon%3D1.0.png)
