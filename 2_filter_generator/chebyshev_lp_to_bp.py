@@ -86,6 +86,9 @@ for n in range(l_len):
     print("| L_{0} = {1:.4e} [H]    |\n| C_{0} = {2:.4e} [F]    |".format(j,L[n],C[n]))
     print("---------------------------")
 
+
+print("| Output load             |")
+print("---------------------------")
 print("| R_out ={0:.4e} [Ohm] |".format(R_out))
 print("---------------------------")
 print("")
@@ -195,6 +198,14 @@ for n in range(l_len):
     C_ser[n] = (Delta_f_rel)/(2*math.pi*f_cent*chebyshev_L[n]*R_o)
     print("| L_{0} = {1:.4e} [H] | C_ser_{0} = {4:.4e} [F]   |\n| C_{0} = {2:.4e} [F] | L_par_{0} = {3:.4e} [H]   |".format(j, L[n], C[n], L_par[n], C_ser[n]))
     print("-----------------------------------------------------")
+
+
+
+print("|Output load                                        |")
+print("-----------------------------------------------------")
+print("| R_out ={0:.4e} [Ohm]                           |".format(R_out))
+print("-----------------------------------------------------")
+print("")
 
 
 # This code section draws a schematic on the terminal for the pass-band
