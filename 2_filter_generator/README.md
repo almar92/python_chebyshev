@@ -33,5 +33,5 @@
 
 ## To-do list
 
-* [] Write proper documentation for the currently working code
-* [] Add the conversion to High-pass
+- [ ] Write proper documentation for the currently working code
+- [ ] Add the conversion to High-pass
