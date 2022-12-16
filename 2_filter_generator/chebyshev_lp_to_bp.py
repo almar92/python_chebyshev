@@ -161,12 +161,13 @@ C_ser = np.zeros(len(L))
 
 f_1    = int(input("Input desired left cutoff frequency [Hz]:  "))
 f_2    = int(input("Input desired right cutoff frequency [Hz]: "))
-f_cent = int(input("Input desired center frequency [Hz]:       "))
+f_cent = np.sqrt(f_1*f_2)
+
 
 Delta_f_rel = (f_2 - f_1)/f_cent
 
 print("")
-print("Delta_f_rel ={0:.4e}".format(Delta_f_rel))
+print("f_mid = {0:.4e}\nDelta_f_rel ={1:.4e}".format(f_cent,Delta_f_rel))
 print("")
 
 
