@@ -131,4 +131,7 @@ The term $g_{n+1}$ is the last term of the corr
 
 - [ ] Write proper documentation for the currently working code
 - [ ] Add the conversion to High-pass
+<<<<<<< HEAD
 - [ ] Rename the file from ``chebyshev_lp_to_bp.py`` once all features are available
+=======
+>>>>>>> b015ca4e77a41d5a47e7fc4b98b48c7ecbb743c8
