@@ -225,7 +225,7 @@ $$
 
 This relation brings us two consequences:
 
-Studying the inductors'impedances one finds that
+Studying the inductors' impedances one finds that
 
 $$
 Z_{LP}(s) = ks \rightarrow Z_{BP}(p) = kp + \frac{k}{p} \ ; \ p \in \mathbb{C}
