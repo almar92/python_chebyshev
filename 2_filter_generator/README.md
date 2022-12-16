@@ -355,8 +355,8 @@ Like in the previous section, for all examples we choose
 For all the examples we get
 
 ````
-f_mid [Hz]       = 2.6995e+06
-Delta_f_rel [Hz] = 3.7043e-02
+f_mid       = 2.6995e+06 [Hz]
+Delta_f_rel = 3.7043e-02 [Hz]
 ````
 
 ## To-do list
