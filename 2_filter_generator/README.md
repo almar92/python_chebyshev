@@ -112,7 +112,10 @@ The term $g_{n+1}$ is the last impedence value on the n-th row of the table
 
 ### Examples
 
-For all examples we choose $R_{out} = 50 \ [\Omega]$ and $f_c = 1 \ [MHz]$
+For all examples we choose 
+
+* $R_{out} = 50 \ [\Omega]$ 
+* $f_c = 1 \ [MHz]$
 
 1. 5th order filter with $\epsilon=1.0$
 
@@ -349,11 +352,18 @@ Like in the previous section, for all examples we choose
 	-----------------------------------------------------
 	````
 
+For all the examples we get
+
+````
+f_mid [Hz]       = 2.6995e+06
+Delta_f_rel [Hz] = 3.7043e-02
+````
+
 ## To-do list
 
 - [ ] Write proper documentation for the currently working code
 	- [x] Low-pass filter
-	- [ ] Band-pass filter
+	- [x] Band-pass filter
 	- [ ] High-pass filter
 - [ ] Add the conversion to High-pass
 - [ ] Rename the file from ``chebyshev_lp_to_bp.py`` once all features are implemented
