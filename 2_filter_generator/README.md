@@ -4,14 +4,8 @@
 1. [Introduction](#Introducyion)
 1. [Low-pass filter generation](#Low-pass-filter-generation)
 	1. [Examples](#Examples)
-		1. [5th order filter with $\epsilon=1.0$](#5th-order-filter-with-epsilon10)
-		2. [6th order filter with $\epsilon=1.0$](#6th-order-filter-with-epsilon10)
-		3. [7th order filter with $\epsilon=1.0$](#7th-order-filter-with-epsilon10)
 2. [Low-pass to Band-pass conversion](#Low-pass-to-Band-pass-conversion)
 	1. [Examples](#Examples)
-		1. [5th order filter with $\epsilon=1.0$](#5th-order-filter-with-epsilon10-1)
-		2. [6th order filter with $\epsilon=1.0$](#6th-order-filter-with-epsilon10-1)
-		3. [7th order filter with $\epsilon=1.0$](#7th-order-filter-with-epsilon10-1)
 4.  [To-do list](#To-do-list)
 
 
@@ -76,7 +70,6 @@ Gen       C_1       C_2       C_3       R_out
 Gen       C_1       C_2       C_3       R_out
 |         |         |         |         |
 ---------------------------------------------
-
 ````
 
 
@@ -90,7 +83,6 @@ Gen       C_1       C_2       C_3       R_out
 Gen       C_1       C_2       C_3       C_4       R_out
 |         |         |         |         |         |
 --------------------------------------------------------
-
 ````
 
 
@@ -117,35 +109,87 @@ The term $g_{n+1}$ is the last impedence value on the n-th row of the table
 
 For all examples we choose $R_{out} = 50 \ [\Omega]$ and $f_c = 1 \ [MHz]$
 
-#### 5th order filter with $\epsilon=1.0$
+1. 5th order filter with $\epsilon=1.0$
 
-````
----------------------------
-| 1st net component       |
----------------------------
-| C_1 = 1.1083e-08 [F]    |
----------------------------
-| 2st net components      |
----------------------------
-| L_2 = 6.0622e-06 [H]    |
-| C_2 = 1.1083e-08 [F]    |
----------------------------
-| 3st net components      |
----------------------------
-| L_3 = 6.0622e-06 [H]    |
-| C_3 = 1.4445e-08 [F]    |
----------------------------
-| Output load             |
----------------------------
-| R_out =5.0000e+01 [Ohm] |
----------------------------
-````
+	````
+	---------------------------
+	| 1st net component       |
+	---------------------------
+	| C_1 = 1.1083e-08 [F]    |
+	---------------------------
+	| 2st net components      |
+	---------------------------
+	| L_2 = 6.0622e-06 [H]    |
+	| C_2 = 1.1083e-08 [F]    |
+	---------------------------
+	| 3st net components      |
+	---------------------------
+	| L_3 = 6.0622e-06 [H]    |
+	| C_3 = 1.4445e-08 [F]    |
+	---------------------------
+	| Output load             |
+	---------------------------
+	| R_out =5.0000e+01 [Ohm] |
+	---------------------------
+	````
 
-#### 6th order filter with $\epsilon=1.0$
+2. 6th order filter with $\epsilon=1.0$
 
-#### 7th order filter with $\epsilon=1.0$
+	````
+	---------------------------
+	| 1st net components      |
+	---------------------------
+	| L_1 = 6.1147e-06 [H]    |
+	| C_1 = 1.1155e-08 [F]    |
+	---------------------------
+	| 2st net components      |
+	---------------------------
+	| L_2 = 6.3097e-06 [H]    |
+	| C_2 = 1.4662e-08 [F]    |
+	---------------------------
+	| 3st net components      |
+	---------------------------
+	| L_3 = 4.8009e-06 [H]    |
+	| C_3 = 1.4210e-08 [F]    |
+	---------------------------
+	| Output load             |
+	---------------------------
+	| R_out =2.9048e+02 [Ohm] |
+	---------------------------
+	````
+
+3. 7th order filter with $\epsilon=1.0$
+	````
+	---------------------------
+	| 1st net component       |
+	---------------------------
+	| C_1 = 1.1199e-08 [F]    |
+	---------------------------
+	| 2st net components      |
+	---------------------------
+	| L_2 = 6.1458e-06 [H]    |
+	| C_2 = 1.1199e-08 [F]    |
+	---------------------------
+	| 3st net components      |
+	---------------------------
+	| L_3 = 6.3972e-06 [H]    |
+	| C_3 = 1.4765e-08 [F]    |
+	---------------------------
+	| 4st net components      |
+	---------------------------
+	| L_4 = 6.1458e-06 [H]    |
+	| C_4 = 1.4765e-08 [F]    |
+	---------------------------
+	| Output load             |
+	---------------------------
+	| R_out =5.0000e+01 [Ohm] |
+	---------------------------
+	````
 
 ## Low-pass to Band-pass conversion
+
+### Variable change
+
 
 ### Examples
 
