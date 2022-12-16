@@ -55,7 +55,7 @@ Using a LC ladder configuration, these values can be reinterpreted as
 |-----|--------|--------|--------|--------|--------|------------|
 |  5  | 3.4817 | 0.7618 | 4.5381 | 0.7618 | 3.4817 |   1.0000   |
 
-Which, as we using the script, will have the following structure
+Which, as we can see using the script, will have the following structure
 
 ````
 --------------L_2-------L_3------------------
@@ -110,7 +110,7 @@ L_i &= \frac{L_{i_{norm}} \cdot Z_{out} }{2\pi f_c}\\
 R_{out} &=g_{n+1} \cdot Z_{out}
 \end{align}$$
 
-The term $g_{n+1}$ is the last term of the corr
+The term $g_{n+1}$ is the last impedence value on the n-th row of the table
 
 
 ## Low-pass to Band-pass conversion
@@ -131,7 +131,5 @@ The term $g_{n+1}$ is the last term of the corr
 
 - [ ] Write proper documentation for the currently working code
 - [ ] Add the conversion to High-pass
-<<<<<<< HEAD
 - [ ] Rename the file from ``chebyshev_lp_to_bp.py`` once all features are available
-=======
->>>>>>> b015ca4e77a41d5a47e7fc4b98b48c7ecbb743c8
+
