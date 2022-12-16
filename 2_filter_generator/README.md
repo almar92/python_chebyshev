@@ -1,15 +1,15 @@
 # Generation of a n-th order Type 1 Chebyshev filters
 
 ## Table of contents
-1. [Introduction](#Introducyion)
+1. [Introduction](#Introduction)
 1. [Low-pass filter generation](#Low-pass-filter-generation)
 	1. [Chebyshev tables](#chebyshev-tables)
-	2. [Component calculation](#component-calculation)
+	2. [Components calculation](#components-calculation)
 	3. [Examples](#Examples)
 2. [Low-pass to Band-pass conversion](#Low-pass-to-Band-pass-conversion)
 	1. [Cutoff and center frequencies](#cutoff-and-center-frequencies)
 	2. [Variable change and component calculations](#Variable-change-and-component-calculations)
-	3. [Examples](#Examples-01)
+	3. [Examples](#Examples-1)
 4.  [To-do list](#To-do-list)
 
 
@@ -218,7 +218,7 @@ $$
 \Delta f_{rel} = \frac{\Delta_{BP}}{f_{mid}}
 $$
 
-### Variable change
+### Variable change and components calculation
 
 Low-pass and Band-pass filters are bound together by the following variable change
 
