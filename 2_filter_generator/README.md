@@ -3,14 +3,15 @@
 ## Table of contents
 1. [Introduction](#Introducyion)
 1. [Low-pass filter generation](#Low-pass-filter-generation)
+	1. [Examples](#Examples)
+		1. [5th order filter with $\epsilon=1.0$](#5th-order-filter-with-epsilon10)
+		2. [6th order filter with $\epsilon=1.0$](#6th-order-filter-with-epsilon10)
+		3. [7th order filter with $\epsilon=1.0$](#7th-order-filter-with-epsilon10)
 2. [Low-pass to Band-pass conversion](#Low-pass-to-Band-pass-conversion)
-3. [Examples](#Examples)
-	1. [6th order filter with $\epsilon=1.0$](#7th-order-filter-with-epsilon10)
-		1. [Low-pass components](#Low-pass-components)
-		2. [Band-pass conversion](#Band-pass-conversion)
-	2. [7th order filter with $\epsilon=1.0$](#7th-order-filter-with-epsilon10)
-		1. [Low-pass components](#Low-pass-components)
-		2. [Band-pass conversion](#Band-pass-conversion)
+	1. [Examples](#Examples)
+		1. [5th order filter with $\epsilon=1.0$](#5th-order-filter-with-epsilon10)
+		2. [6th order filter with $\epsilon=1.0$](#6th-order-filter-with-epsilon10)
+		3. [7th order filter with $\epsilon=1.0$](#7th-order-filter-with-epsilon10)
 4.  [To-do list](#To-do-list)
 
 
@@ -35,7 +36,7 @@ and outputs
 	1. Low-pass filter
 	2. Band-pass filter
 	3. [(To-do)](#to-do) High-pass filter
-2. A schematic drawn in the terminal with ASCII characters for all the filters
+2. A schematic drawn in the terminal with ASCII characters for all the filters (**Note:** the ``Gen`` symbol is a **real generator**, including it's parassite load. This was done in order not to overcrowd anymore the terminal, which already happens enough with the Pass-band representation)
 
 ## Low-pass filter generation
 
@@ -112,20 +113,25 @@ R_{out} &=g_{n+1} \cdot Z_{out}
 
 The term $g_{n+1}$ is the last impedence value on the n-th row of the table
 
+### Examples
+
+For all examples we choose $R_{out} = 50 \ [\Omega]$ and "f_c = 1 \ [MHz]"
+
+#### 5th order filter with $\epsilon=1.0$
+
+#### 6th order filter with $\epsilon=1.0$
+
+#### 7th order filter with $\epsilon=1.0$
 
 ## Low-pass to Band-pass conversion
 
-## Examples
+### Examples
 
-### 6th order filter with $\epsilon=1.0$
+#### 5th order filter with $\epsilon=1.0$
 
-#### Low-pass components
-#### Band-pass conversion
+#### 6th order filter with $\epsilon=1.0$
 
-### 7th order filter with $\epsilon=1.0$
-
-#### Low-pass components
-#### Band-pass conversion
+#### 7th order filter with $\epsilon=1.0$
 
 ## To-do list
 
